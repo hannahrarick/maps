@@ -1,0 +1,71 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Fjalla One', sans-serif;
+  background: #5D8AA6;
+  margin:auto;
+}
+
+h1 {
+  font-size: 3.3rem;
+  text-align: center;
+  margin: 0;
+  padding: .8rem;
+}
+
+article {
+  margin: auto;
+  max-width: 800px;
+  padding: 2.5rem;
+  border: 5px solid;
+  background: #F1FEFF;
+}
+
+#mapid {
+  height: 600px;
+  max-width: 750px;
+  margin: auto;
+}
+
+#map2id {
+  height: 600px;
+  max-width: 750px;
+  margin: auto;
+}
+
+figcaption {
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 1em 1em;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  figcaption {
+    font-size: .6rem;
+  }
+
+  #mapid #map2id {
+    max-width: 600px;
+  }
+
+  article {
+    padding: 1.5rem;
+  }
+  footer {
+    font-size: .8rem;
+  }
+}
